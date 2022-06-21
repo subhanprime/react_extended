@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Final from './forms/form.js'
+import Final from './reducercomponent/reduced'
 
 function App() {
   return (
@@ -12,3 +12,8 @@ function App() {
 }
 
 export default App;
+
+
+// import Final from './forms/form.js'
+// import Final from './reducercomponent/reduced'
+
