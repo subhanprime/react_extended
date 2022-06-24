@@ -1,0 +1,1 @@
+export const data = ['subhan', 'john Smilga', 'jeff bezos', 'maria jemmer' ]
