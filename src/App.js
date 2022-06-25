@@ -1,6 +1,6 @@
 
 import './App.css';
-import Final from './custom-hooks/custumHooks'
+import Final from './propTypes/typesPp'
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,8 @@ export default App;
 // import Final from './reducercomponent/reduced'
 // import Final from './useContext/useContext'
 // import Final from './custom-hooks/custumHooks'
+// import Final from './propTypes/propType'
+
 
 
 
