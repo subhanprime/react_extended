@@ -1,6 +1,6 @@
 
 import './App.css';
-import Final from './propTypes/typesPp'
+import Final from './proutingJump/routeJump'
 function App() {
   return (
     <div className="App">
@@ -18,7 +18,4 @@ export default App;
 // import Final from './useContext/useContext'
 // import Final from './custom-hooks/custumHooks'
 // import Final from './propTypes/propType'
-
-
-
-
+// import Final from './proutingJump/routeJump'
