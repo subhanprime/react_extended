@@ -1,6 +1,6 @@
 
 import './App.css';
-import Final from './useFetchHook/parent';
+import Final from './multipleReq/parent';
 function App() {
   return (
     <div className="App">
@@ -23,3 +23,4 @@ export default App;
 // import Final from './fetchApis/fetchApis'
 // import Final from './faker/fakerpage';
 // import Final from './useFetchHook/parent';
+// import Final from './multipleReq/parent';
