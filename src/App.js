@@ -1,6 +1,6 @@
 
 import './App.css';
-import Final from './optimization/optimization'
+import Final from './faker/fakerpage';
 function App() {
   return (
     <div className="App">
@@ -20,3 +20,5 @@ export default App;
 // import Final from './propTypes/propType'
 // import Final from './proutingJump/routeJump'
 // import Final from './optimization/optimization'
+// import Final from './fetchApis/fetchApis'
+// import Final from './faker/fakerpage';
