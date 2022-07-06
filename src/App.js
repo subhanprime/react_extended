@@ -1,6 +1,6 @@
 
 import './App.css';
-import Final from './multipleReq/parent';
+import Final from './waterFall/waterFall';
 function App() {
   return (
     <div className="App">
@@ -24,3 +24,4 @@ export default App;
 // import Final from './faker/fakerpage';
 // import Final from './useFetchHook/parent';
 // import Final from './multipleReq/parent';
+// import Final from './waterFall/waterFall';
