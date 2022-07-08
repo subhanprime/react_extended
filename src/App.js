@@ -1,6 +1,6 @@
 
 import './App.css';
-import Final from './routeterfile/routerFile';
+import Final from './project1/main';
 function App() {
   return (
     <div className="App">
@@ -26,3 +26,5 @@ export default App;
 // import Final from './multipleReq/parent';
 // import Final from './waterFall/waterFall';
 // import Final from './routeterfile/routerFile';
+// projects
+// import Final from './project1/main';

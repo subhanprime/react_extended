@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+
+#navbar{
+    background-color: #482ff7;
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navList{
+    width: 100px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+#userListOuter{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.imgDiv{
+    margin-top: 15px;
+    height: 150px;
+    width: 150px;
+    /* background-color: blueviolet; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    /* overflow: hidden; */
+}
+.imgDiv::before{
+    content: '';
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #d9dad7;
+    position: absolute;
+}
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 20;
+}
+.listItem{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* border: solid 1px #ddd; */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1),-10px -10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#listItemOuter{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.nameDetails{
+    width: 100%;
+    /* background-color: #709078; */
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+.detailsInfo{
+    background-color: #62929a;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
