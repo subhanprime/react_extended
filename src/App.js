@@ -1,10 +1,10 @@
 
 import './App.css';
-import Final from './waterFall/waterFall';
+import Final from './routeterfile/routerFile';
 function App() {
   return (
     <div className="App">
-      <h1>subhan ali</h1>
+      {/* <h1>subhan ali</h1> */}
       <Final />
     </div>
   );
@@ -25,3 +25,4 @@ export default App;
 // import Final from './useFetchHook/parent';
 // import Final from './multipleReq/parent';
 // import Final from './waterFall/waterFall';
+// import Final from './routeterfile/routerFile';
